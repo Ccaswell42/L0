@@ -1,15 +1,15 @@
 {
-  "order_uid": "b563feb7b2b84b6video",
-  "track_number": "VIDEOTRACK",
+  "order_uid": "b569aeb7b2b84b7blina",
+  "track_number": "FORVIDEOTRACK",
   "entry": "WBIL",
   "delivery": {
-    "name": "Ivan Vasilev",
-    "phone": "+79053874209",
+    "name": "Kirill Blinov",
+    "phone": "+79054264317",
     "zip": "2639802",
     "city": "Moscow",
-    "address": "Kutuzov pr. 102",
+    "address": "Lomonosov pr. 102",
     "region": "Moscow",
-    "email": "valilev@yandex.ru"
+    "email": "blinov@yandex.ru"
   },
   "payment": {
     "transaction": "b563fe111b2b84b6test",
@@ -18,7 +18,7 @@
     "provider": "wbpay",
     "amount": 12400,
     "payment_dt": 1637907727,
-    "bank": "tinkoff",
+    "bank": "vtb",
     "delivery_cost": 4000,
     "goods_total": 317,
     "custom_fee": 1000
@@ -29,31 +29,18 @@
       "track_number": "WBILMTESTTRACK1",
       "price": 45,
       "rid": "ab4219064ae0btest22",
-      "name": "Juicer",
+      "name": "sun glasses",
       "sale": 30,
       "size": "0",
       "total_price": 317,
       "nm_id": 2389212,
-      "brand": "Tefal",
-      "status": 202
-    },
-    {
-      "chrt_id": 993493011,
-      "track_number": "WBILMTESTTRACK1",
-      "price": 4,
-      "rid": "ab4219064ae0btest22",
-      "name": "Mixer",
-      "sale": 30,
-      "size": "0",
-      "total_price": 317,
-      "nm_id": 2389212,
-      "brand": "Bosch",
+      "brand": "Ray ban",
       "status": 202
     }
   ],
   "locale": "en",
   "internal_signature": "",
-  "customer_id": "test1",
+  "customer_id": "test19",
   "delivery_service": "meest",
   "shardkey": "9",
   "sm_id": 99,
