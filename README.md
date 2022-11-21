@@ -13,7 +13,7 @@ make example
 ## Сервер предоставляет интерфейс из браузера
 
 Вводим ID заказа:
-![Иллюстрация к проекту](https://github.com/Ccaswell42/screenshots/blob/main/WB_L0/search.png
+![Иллюстрация к проекту](https://github.com/Ccaswell42/screenshots/blob/main/WB_L0/search.png)
 
 
 
