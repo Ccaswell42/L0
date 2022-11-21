@@ -10,4 +10,9 @@ make
 # Отправить с помощью NATS-Streaming сообщение серверу:
 make example
 
+## Сервер предоставляет интерфейс из браузера
+
+Вводим ID заказа:
+![Иллюстрация к проекту](https://github.com/Ccaswell42/screenshots/blob/main/WB_L0/search.png)
+Получаем ответ:
 ![Иллюстрация к проекту](https://github.com/Ccaswell42/screenshots/blob/main/WB_L0/response.png)
