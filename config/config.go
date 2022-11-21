@@ -13,6 +13,7 @@ type Config struct {
 	DurableName   string `env:"DURABLE_NAME"`
 	DSN           string `env:"DSN"`
 	DriverName    string `env:"DRIVER_NAME"`
+	NatsUrl       string `env:"NATS_URL"`
 }
 
 func GetConfig() (*Config, error) {
@@ -28,6 +29,7 @@ func GetConfig() (*Config, error) {
 		DurableName:   os.Getenv("DURABLE_NAME"),
 		DSN:           os.Getenv("DSN"),
 		DriverName:    os.Getenv("DRIVER_NAME"),
+		NatsUrl:       os.Getenv("NATS_URL"),
 	}, nil
 
 }

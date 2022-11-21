@@ -10,7 +10,7 @@ import (
 )
 
 func initConn(conf *config.Config) (stan.Conn, error) {
-	sc, err := stan.Connect(conf.StanClusterId, conf.ClientId)
+	sc, err := stan.Connect(conf.StanClusterId, conf.ClientId, stan.NatsURL(conf.NatsUrl))
 
 	if err != nil {
 		return nil, err

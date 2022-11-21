@@ -3,7 +3,6 @@ package main
 import (
 	"fmt"
 	"github.com/nats-io/stan.go"
-	"io/ioutil"
 	"log"
 	"os"
 	"wildberries/config"
@@ -25,7 +24,7 @@ func main() {
 		}
 	}()
 
-	mod, err := ioutil.ReadFile(os.Args[1])
+	mod, err := os.ReadFile(os.Args[1])
 	if err != nil {
 		log.Fatal(err)
 	}
